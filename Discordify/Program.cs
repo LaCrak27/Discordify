@@ -9,7 +9,7 @@ namespace Discordify
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Discordify v1.0");
+            Console.WriteLine("Discordify v1.1");
 
             string video = "";
             if (args.Length == 0)

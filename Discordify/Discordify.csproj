@@ -8,6 +8,7 @@
     <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
     <AssemblyName>Discordify</AssemblyName>
     <PackageIcon>discordify.png</PackageIcon>
+    <ApplicationIcon>discordify.ico</ApplicationIcon>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -17,6 +18,10 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="discordify.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="FFMpegCore" Version="5.2.0" />
