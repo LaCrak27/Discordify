@@ -47,7 +47,7 @@ namespace Discordify
             }
         }
 
-        private static async Task ConvertVideo(string video)
+        private static void ConvertVideo(string video)
         {
             try
             {
