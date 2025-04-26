@@ -1,7 +1,8 @@
 
 # <img src="Discordify/discordify.png" width="45"> Discordify 
-Discordify is a simple cli application to compress any video to a size of less than 10MB (Discord's free upload limit). It's made in C# using FFMpegCore as an FFMpeg wrapper. Discordify is not associated with discord in any way.
-
+Discordify is a simple cli application to compress any video to a size of less than 10MB (Discord's free upload limit). It's made in C# using FFMpegCore as an FFmpeg wrapper. Discordify is not associated with discord in any way.
+# Dependencies
+To use discordify, [FFmpeg](https://www.ffmpeg.org/) must be installed on your system and added to the PATH enviroment variable, or the FFmpeg executable must be located in the same folder as Discordify.
 # Installation
 Download the latest version from the releases page, unzip it somewhere, run the executable, enjoy :)
 ## Optional: Add to PATH
