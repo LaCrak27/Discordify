@@ -4,7 +4,7 @@ Discordify is a simple cli application to compress any video to a size of less t
 # Dependencies
 To use discordify, [FFmpeg](https://www.ffmpeg.org/) must be installed on your system and added to the PATH enviroment variable, or the FFmpeg executable must be located in the same folder as Discordify.
 # Installation
-Download the latest version from the releases page, unzip it somewhere, run the executable, enjoy :)
+Download the latest version from the releases page, run the executable and enjoy :)
 ## Optional: Add to PATH
 To able able to use discordify anywhere on your system, you must add the executable to your PATH enviroment variable, therefore making it available to your shell anywhere. If you don't know how to do that, there are a ton of great tutorials available one google search away.
 # Usage
